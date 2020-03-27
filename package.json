@@ -1,0 +1,43 @@
+{
+  "name": "node-sql-tutorial",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "parcel build client/index.js",
+    "dev": "nodemon --watch client --watch src -e js,ejs,sql,vue,css --exec npm run dev:start",
+    "dev:start": "npm-run-all build start",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/bell": "^12.0.0",
+    "@hapi/boom": "^9.1.0",
+    "@hapi/cookie": "^11.0.1",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/vision": "^6.0.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "fs-extra": "^9.0.0",
+    "luxon": "^1.22.2",
+    "materialize-css": "^1.0.0",
+    "moment": "^2.24.0",
+    "mssql": "^6.2.0",
+    "vue": "^2.6.11",
+    "vue-datetime": "^1.0.0-beta.11",
+    "weekstart": "^1.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-reverentgeek": "^2.0.2",
+    "nodemon": "^1.19.4",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
