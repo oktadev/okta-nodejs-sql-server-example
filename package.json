@@ -35,7 +35,7 @@
     "@vue/component-compiler-utils": "^2.6.0",
     "eslint": "^6.8.0",
     "eslint-config-reverentgeek": "^2.0.2",
-    "nodemon": "^1.19.4",
+    "nodemon": "^2.0.20",
     "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.12.4",
     "vue-template-compiler": "^2.6.11"
