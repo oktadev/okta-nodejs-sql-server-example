@@ -23,7 +23,7 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.1.7",
     "fs-extra": "^9.0.0",
-    "luxon": "^1.22.2",
+    "luxon": "^1.28.1",
     "materialize-css": "^1.0.0",
     "moment": "^2.29.4",
     "mssql": "^6.2.0",
